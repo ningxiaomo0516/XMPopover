@@ -1,0 +1,16 @@
+PODS:
+  - XMPopover (0.1.0)
+
+DEPENDENCIES:
+  - XMPopover (from `../`)
+
+EXTERNAL SOURCES:
+  XMPopover:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  XMPopover: cbe6e5e079bde9cc79e2d46b59d5c0ee3cbeb3bf
+
+PODFILE CHECKSUM: 8527191ba8d62a0e8a7e4e8b87d61a06df3929b4
+
+COCOAPODS: 1.11.2

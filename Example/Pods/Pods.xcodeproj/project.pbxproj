@@ -1,0 +1,794 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		15407621E21AC11E2AE141839C2F7FFE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		24806CB840BCA9D2334C99F96D2F94FD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		27432C6BC8284C3D96422671B65409FC /* XMPopover-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 723CF7292C6841CFFE911063C67D1770 /* XMPopover-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		282FA45B13D2FBE8EE397CABC5FA3714 /* Pods-XMPopover_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 74B35CB16B644908F0AF04A7C995E2BE /* Pods-XMPopover_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2D3D56580FE3F5428C7977C5F345A18C /* XMPopover-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ACAE4A25E4AAA2203FE23C9978812D62 /* XMPopover-dummy.m */; };
+		3286D4838A8E74EE7234F9C762249D14 /* XMPopoverAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 090D810A3A3C9035A794929C3D73F063 /* XMPopoverAnimator.m */; };
+		94566CE85165058B064C4AE6BA8786E1 /* Pods-XMPopover_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F09B393E0610F1FC8B04C0CD298D5050 /* Pods-XMPopover_Tests-dummy.m */; };
+		A18653D93EAB7315D9A903B91B62B21B /* XMPopoverMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DDA04BFD027208FA8CE99433EFD9F7A /* XMPopoverMacro.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A88FE1EC338C763A0DDFB57D782C7789 /* UIViewController+XMPopover.m in Sources */ = {isa = PBXBuildFile; fileRef = DAF93B69DFA2EF7D7B2BD30BA1EACA5B /* UIViewController+XMPopover.m */; };
+		D350C197D4DC120EA488D01D20A2F95B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		D77D11D4E1154CB6DEF37C2242DB822B /* XMPresentationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21D102F3AAD819FDAC28F3343028CE1B /* XMPresentationController.m */; };
+		DF13E37EBF86D4822B6BB45884DB86F6 /* XMPresentationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A6DCF8D7C7740079B8A8B90AF09FCD2 /* XMPresentationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E010BB1A00BB6915ED8B197950398D8A /* UIViewController+XMPopover.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F08634DA8A0D1A10C7D90F0CCF7065B /* UIViewController+XMPopover.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F1F97497B21A39FE85424433B367A455 /* XMPopoverAnimator.h in Headers */ = {isa = PBXBuildFile; fileRef = 0041343A3097D111DC3BC970781FE7B9 /* XMPopoverAnimator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F82FC9D3D5CB5AB00B63DCC486CEFC98 /* Pods-XMPopover_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 383B8A067394EFB78B58334BA714D093 /* Pods-XMPopover_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FACE7747DC0F7A849BBB94E56DB6C27A /* Pods-XMPopover_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A100C4D6A1C9567767CF3D91FEA6F6AD /* Pods-XMPopover_Example-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2320E80E50DCCE28507830C6F30D5E53 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8315F242D63366918D68A938AD6E8A23;
+			remoteInfo = "Pods-XMPopover_Example";
+		};
+		7B574A5977FBADD0F21FCCE76D67251C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C93004FB8EC009E856905F48CBBB3A2;
+			remoteInfo = XMPopover;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0041343A3097D111DC3BC970781FE7B9 /* XMPopoverAnimator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPopoverAnimator.h; path = XMPopover/Classes/XMPopoverAnimator.h; sourceTree = "<group>"; };
+		02425CD27FDA19216F442720ABA11F9A /* XMPopover-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XMPopover-prefix.pch"; sourceTree = "<group>"; };
+		090D810A3A3C9035A794929C3D73F063 /* XMPopoverAnimator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XMPopoverAnimator.m; path = XMPopover/Classes/XMPopoverAnimator.m; sourceTree = "<group>"; };
+		12D46E1B1A6D768605D305FCD54EE872 /* Pods-XMPopover_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XMPopover_Example-Info.plist"; sourceTree = "<group>"; };
+		14EFB4BDB8D2519CFB70EDEF08C33E73 /* Pods-XMPopover_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XMPopover_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		1886DBB4D0393599FD668B219019F462 /* Pods-XMPopover_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XMPopover_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		21D102F3AAD819FDAC28F3343028CE1B /* XMPresentationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XMPresentationController.m; path = XMPopover/Classes/XMPresentationController.m; sourceTree = "<group>"; };
+		260C92D1B30D2DB637301B6C7017988C /* Pods-XMPopover_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XMPopover_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		383B8A067394EFB78B58334BA714D093 /* Pods-XMPopover_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XMPopover_Tests-umbrella.h"; sourceTree = "<group>"; };
+		3A6DCF8D7C7740079B8A8B90AF09FCD2 /* XMPresentationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPresentationController.h; path = XMPopover/Classes/XMPresentationController.h; sourceTree = "<group>"; };
+		3DDA04BFD027208FA8CE99433EFD9F7A /* XMPopoverMacro.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPopoverMacro.h; path = XMPopover/Classes/XMPopoverMacro.h; sourceTree = "<group>"; };
+		4ACDF5EADA33677A6A3DC7AAA08F20ED /* Pods-XMPopover_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XMPopover_Example-frameworks.sh"; sourceTree = "<group>"; };
+		51D8467CD8D90254328122AF2FA0E67B /* Pods-XMPopover_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XMPopover_Tests.modulemap"; sourceTree = "<group>"; };
+		55094809A901B6F99037FDF05A425052 /* Pods-XMPopover_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XMPopover_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5B45EFA6ECE57AAFD848C6FC68094D91 /* Pods-XMPopover_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XMPopover_Example.release.xcconfig"; sourceTree = "<group>"; };
+		6279473F4605DC57CD297226847D7F6C /* XMPopover.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = XMPopover.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		6ECAFB1AAC53E29958634534409EB34D /* Pods-XMPopover_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XMPopover_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		723CF7292C6841CFFE911063C67D1770 /* XMPopover-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XMPopover-umbrella.h"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		745C44652B0053046EF5A5225D75972B /* Pods-XMPopover_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-XMPopover_Example"; path = Pods_XMPopover_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		74B35CB16B644908F0AF04A7C995E2BE /* Pods-XMPopover_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XMPopover_Example-umbrella.h"; sourceTree = "<group>"; };
+		7BBF7F0FD18A7454741DB92CB49DA3CE /* XMPopover */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = XMPopover; path = XMPopover.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F08634DA8A0D1A10C7D90F0CCF7065B /* UIViewController+XMPopover.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+XMPopover.h"; path = "XMPopover/Classes/UIViewController+XMPopover.h"; sourceTree = "<group>"; };
+		8E2B37FC5129066DDA30169A610CE4A6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		9377A54D138DAFA4CDAD96078BA0BA6B /* Pods-XMPopover_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XMPopover_Tests-Info.plist"; sourceTree = "<group>"; };
+		976679A391BE4616644FC34A3C65A0A9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A100C4D6A1C9567767CF3D91FEA6F6AD /* Pods-XMPopover_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XMPopover_Example-dummy.m"; sourceTree = "<group>"; };
+		ACAE4A25E4AAA2203FE23C9978812D62 /* XMPopover-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XMPopover-dummy.m"; sourceTree = "<group>"; };
+		BE2CC22D79EEC2A35CB5FF9875606C7F /* Pods-XMPopover_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XMPopover_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		C40844BAA1A305E389919082F936EDCD /* XMPopover.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XMPopover.debug.xcconfig; sourceTree = "<group>"; };
+		CC0115DC57261B5EAACFD4496442EA56 /* Pods-XMPopover_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-XMPopover_Tests"; path = Pods_XMPopover_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAF93B69DFA2EF7D7B2BD30BA1EACA5B /* UIViewController+XMPopover.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+XMPopover.m"; path = "XMPopover/Classes/UIViewController+XMPopover.m"; sourceTree = "<group>"; };
+		DB4523B4676135FCBAF83A7E6F022090 /* Pods-XMPopover_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XMPopover_Example.modulemap"; sourceTree = "<group>"; };
+		E7CFD15FD9B4F4D8491519ACEFF422BF /* XMPopover.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XMPopover.release.xcconfig; sourceTree = "<group>"; };
+		E7DC30F315720CB93D80F7CDD7D5C81F /* Pods-XMPopover_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XMPopover_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EC3002950852F87367B53055AFF4BBF1 /* XMPopover-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "XMPopover-Info.plist"; sourceTree = "<group>"; };
+		ECEC270FF29DA05C8036567E9EC7C367 /* XMPopover.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XMPopover.modulemap; sourceTree = "<group>"; };
+		F09B393E0610F1FC8B04C0CD298D5050 /* Pods-XMPopover_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XMPopover_Tests-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9D60B02743BA24234B2A64DB5E93313F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15407621E21AC11E2AE141839C2F7FFE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3D1E169D111C57F05BC4AED1067BF96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D350C197D4DC120EA488D01D20A2F95B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3B828AF42D1041A6077A32219234383 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24806CB840BCA9D2334C99F96D2F94FD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3095492C50EB8928EDF1B29392B698C7 /* Pods-XMPopover_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				51D8467CD8D90254328122AF2FA0E67B /* Pods-XMPopover_Tests.modulemap */,
+				55094809A901B6F99037FDF05A425052 /* Pods-XMPopover_Tests-acknowledgements.markdown */,
+				260C92D1B30D2DB637301B6C7017988C /* Pods-XMPopover_Tests-acknowledgements.plist */,
+				F09B393E0610F1FC8B04C0CD298D5050 /* Pods-XMPopover_Tests-dummy.m */,
+				9377A54D138DAFA4CDAD96078BA0BA6B /* Pods-XMPopover_Tests-Info.plist */,
+				383B8A067394EFB78B58334BA714D093 /* Pods-XMPopover_Tests-umbrella.h */,
+				6ECAFB1AAC53E29958634534409EB34D /* Pods-XMPopover_Tests.debug.xcconfig */,
+				14EFB4BDB8D2519CFB70EDEF08C33E73 /* Pods-XMPopover_Tests.release.xcconfig */,
+			);
+			name = "Pods-XMPopover_Tests";
+			path = "Target Support Files/Pods-XMPopover_Tests";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5A4D601B4FAD93C69712424886EB5DE0 /* XMPopover */ = {
+			isa = PBXGroup;
+			children = (
+				7F08634DA8A0D1A10C7D90F0CCF7065B /* UIViewController+XMPopover.h */,
+				DAF93B69DFA2EF7D7B2BD30BA1EACA5B /* UIViewController+XMPopover.m */,
+				0041343A3097D111DC3BC970781FE7B9 /* XMPopoverAnimator.h */,
+				090D810A3A3C9035A794929C3D73F063 /* XMPopoverAnimator.m */,
+				3DDA04BFD027208FA8CE99433EFD9F7A /* XMPopoverMacro.h */,
+				3A6DCF8D7C7740079B8A8B90AF09FCD2 /* XMPresentationController.h */,
+				21D102F3AAD819FDAC28F3343028CE1B /* XMPresentationController.m */,
+				EAEF1A56C8D747AF1C019F0CFD8051DF /* Pod */,
+				DC4EFBB919E594A07245D27F3D24DB8C /* Support Files */,
+			);
+			name = XMPopover;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		700746A07E00EEC829ECB5F836965607 /* Pods-XMPopover_Example */ = {
+			isa = PBXGroup;
+			children = (
+				DB4523B4676135FCBAF83A7E6F022090 /* Pods-XMPopover_Example.modulemap */,
+				E7DC30F315720CB93D80F7CDD7D5C81F /* Pods-XMPopover_Example-acknowledgements.markdown */,
+				BE2CC22D79EEC2A35CB5FF9875606C7F /* Pods-XMPopover_Example-acknowledgements.plist */,
+				A100C4D6A1C9567767CF3D91FEA6F6AD /* Pods-XMPopover_Example-dummy.m */,
+				4ACDF5EADA33677A6A3DC7AAA08F20ED /* Pods-XMPopover_Example-frameworks.sh */,
+				12D46E1B1A6D768605D305FCD54EE872 /* Pods-XMPopover_Example-Info.plist */,
+				74B35CB16B644908F0AF04A7C995E2BE /* Pods-XMPopover_Example-umbrella.h */,
+				1886DBB4D0393599FD668B219019F462 /* Pods-XMPopover_Example.debug.xcconfig */,
+				5B45EFA6ECE57AAFD848C6FC68094D91 /* Pods-XMPopover_Example.release.xcconfig */,
+			);
+			name = "Pods-XMPopover_Example";
+			path = "Target Support Files/Pods-XMPopover_Example";
+			sourceTree = "<group>";
+		};
+		78A5172DC9CB645BE8728B0B36202B8D /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5A4D601B4FAD93C69712424886EB5DE0 /* XMPopover */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		9A3851E26248A5639F6935A1FE4310B9 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				700746A07E00EEC829ECB5F836965607 /* Pods-XMPopover_Example */,
+				3095492C50EB8928EDF1B29392B698C7 /* Pods-XMPopover_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				78A5172DC9CB645BE8728B0B36202B8D /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				E1F501275195CA2A342E5754ABBF5A24 /* Products */,
+				9A3851E26248A5639F6935A1FE4310B9 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DC4EFBB919E594A07245D27F3D24DB8C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				ECEC270FF29DA05C8036567E9EC7C367 /* XMPopover.modulemap */,
+				ACAE4A25E4AAA2203FE23C9978812D62 /* XMPopover-dummy.m */,
+				EC3002950852F87367B53055AFF4BBF1 /* XMPopover-Info.plist */,
+				02425CD27FDA19216F442720ABA11F9A /* XMPopover-prefix.pch */,
+				723CF7292C6841CFFE911063C67D1770 /* XMPopover-umbrella.h */,
+				C40844BAA1A305E389919082F936EDCD /* XMPopover.debug.xcconfig */,
+				E7CFD15FD9B4F4D8491519ACEFF422BF /* XMPopover.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/XMPopover";
+			sourceTree = "<group>";
+		};
+		E1F501275195CA2A342E5754ABBF5A24 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				745C44652B0053046EF5A5225D75972B /* Pods-XMPopover_Example */,
+				CC0115DC57261B5EAACFD4496442EA56 /* Pods-XMPopover_Tests */,
+				7BBF7F0FD18A7454741DB92CB49DA3CE /* XMPopover */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EAEF1A56C8D747AF1C019F0CFD8051DF /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				8E2B37FC5129066DDA30169A610CE4A6 /* LICENSE */,
+				976679A391BE4616644FC34A3C65A0A9 /* README.md */,
+				6279473F4605DC57CD297226847D7F6C /* XMPopover.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		077001CCA4F8C2A81A933533C91F76D0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F82FC9D3D5CB5AB00B63DCC486CEFC98 /* Pods-XMPopover_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45B31E07CCB3B3EFCAD3803F2FC570B3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				282FA45B13D2FBE8EE397CABC5FA3714 /* Pods-XMPopover_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAAF41938F5C147A956A45D5CD32F433 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E010BB1A00BB6915ED8B197950398D8A /* UIViewController+XMPopover.h in Headers */,
+				27432C6BC8284C3D96422671B65409FC /* XMPopover-umbrella.h in Headers */,
+				F1F97497B21A39FE85424433B367A455 /* XMPopoverAnimator.h in Headers */,
+				A18653D93EAB7315D9A903B91B62B21B /* XMPopoverMacro.h in Headers */,
+				DF13E37EBF86D4822B6BB45884DB86F6 /* XMPresentationController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		04E39EDC0CB2A4E0E28E4F9F9E1AC572 /* Pods-XMPopover_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 036FBC1AB82CB6F97F65856E87AC0625 /* Build configuration list for PBXNativeTarget "Pods-XMPopover_Tests" */;
+			buildPhases = (
+				077001CCA4F8C2A81A933533C91F76D0 /* Headers */,
+				5834D3482BAA522874BFFB0FB5977227 /* Sources */,
+				A3D1E169D111C57F05BC4AED1067BF96 /* Frameworks */,
+				C5274F194C216740914F042C486EB76E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5CC700EB8DE5B1F6A49A3EA5B0C2654F /* PBXTargetDependency */,
+			);
+			name = "Pods-XMPopover_Tests";
+			productName = Pods_XMPopover_Tests;
+			productReference = CC0115DC57261B5EAACFD4496442EA56 /* Pods-XMPopover_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		8315F242D63366918D68A938AD6E8A23 /* Pods-XMPopover_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50A4F1DB36603C77BBFE021CD0133711 /* Build configuration list for PBXNativeTarget "Pods-XMPopover_Example" */;
+			buildPhases = (
+				45B31E07CCB3B3EFCAD3803F2FC570B3 /* Headers */,
+				75B41AA64348335D3BA636F89E35B8B9 /* Sources */,
+				9D60B02743BA24234B2A64DB5E93313F /* Frameworks */,
+				8FA69916722785C410492565E919F9FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4F993980C1D03D8C7A480CB6B1247786 /* PBXTargetDependency */,
+			);
+			name = "Pods-XMPopover_Example";
+			productName = Pods_XMPopover_Example;
+			productReference = 745C44652B0053046EF5A5225D75972B /* Pods-XMPopover_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		9C93004FB8EC009E856905F48CBBB3A2 /* XMPopover */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E564F201F14D98082294D6CDE5FB1F85 /* Build configuration list for PBXNativeTarget "XMPopover" */;
+			buildPhases = (
+				AAAF41938F5C147A956A45D5CD32F433 /* Headers */,
+				47B845F3B3C078AE409828F4D8075953 /* Sources */,
+				F3B828AF42D1041A6077A32219234383 /* Frameworks */,
+				E5046D2C71533B26D34B201146BFD42B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XMPopover;
+			productName = XMPopover;
+			productReference = 7BBF7F0FD18A7454741DB92CB49DA3CE /* XMPopover */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = E1F501275195CA2A342E5754ABBF5A24 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8315F242D63366918D68A938AD6E8A23 /* Pods-XMPopover_Example */,
+				04E39EDC0CB2A4E0E28E4F9F9E1AC572 /* Pods-XMPopover_Tests */,
+				9C93004FB8EC009E856905F48CBBB3A2 /* XMPopover */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8FA69916722785C410492565E919F9FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5274F194C216740914F042C486EB76E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5046D2C71533B26D34B201146BFD42B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		47B845F3B3C078AE409828F4D8075953 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A88FE1EC338C763A0DDFB57D782C7789 /* UIViewController+XMPopover.m in Sources */,
+				2D3D56580FE3F5428C7977C5F345A18C /* XMPopover-dummy.m in Sources */,
+				3286D4838A8E74EE7234F9C762249D14 /* XMPopoverAnimator.m in Sources */,
+				D77D11D4E1154CB6DEF37C2242DB822B /* XMPresentationController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5834D3482BAA522874BFFB0FB5977227 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94566CE85165058B064C4AE6BA8786E1 /* Pods-XMPopover_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75B41AA64348335D3BA636F89E35B8B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FACE7747DC0F7A849BBB94E56DB6C27A /* Pods-XMPopover_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4F993980C1D03D8C7A480CB6B1247786 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = XMPopover;
+			target = 9C93004FB8EC009E856905F48CBBB3A2 /* XMPopover */;
+			targetProxy = 7B574A5977FBADD0F21FCCE76D67251C /* PBXContainerItemProxy */;
+		};
+		5CC700EB8DE5B1F6A49A3EA5B0C2654F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-XMPopover_Example";
+			target = 8315F242D63366918D68A938AD6E8A23 /* Pods-XMPopover_Example */;
+			targetProxy = 2320E80E50DCCE28507830C6F30D5E53 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		62EFDC1D76B2B309AA160A6FC5D8FA9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C40844BAA1A305E389919082F936EDCD /* XMPopover.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/XMPopover/XMPopover-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XMPopover/XMPopover-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/XMPopover/XMPopover.modulemap";
+				PRODUCT_MODULE_NAME = XMPopover;
+				PRODUCT_NAME = XMPopover;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		66CD4C9E94D8E911948232973417BF9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6ECAFB1AAC53E29958634534409EB34D /* Pods-XMPopover_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-XMPopover_Tests/Pods-XMPopover_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XMPopover_Tests/Pods-XMPopover_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		80178895212E07235354F542AA925D49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14EFB4BDB8D2519CFB70EDEF08C33E73 /* Pods-XMPopover_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-XMPopover_Tests/Pods-XMPopover_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XMPopover_Tests/Pods-XMPopover_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BD4BFA18FC048684DA1B19739AD43D56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7CFD15FD9B4F4D8491519ACEFF422BF /* XMPopover.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/XMPopover/XMPopover-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XMPopover/XMPopover-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/XMPopover/XMPopover.modulemap";
+				PRODUCT_MODULE_NAME = XMPopover;
+				PRODUCT_NAME = XMPopover;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		E354CD627A394582B595C0F924D727D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1886DBB4D0393599FD668B219019F462 /* Pods-XMPopover_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-XMPopover_Example/Pods-XMPopover_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XMPopover_Example/Pods-XMPopover_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E8BAF39AC04D1BA83EA0E906468D7110 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B45EFA6ECE57AAFD848C6FC68094D91 /* Pods-XMPopover_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-XMPopover_Example/Pods-XMPopover_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XMPopover_Example/Pods-XMPopover_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		036FBC1AB82CB6F97F65856E87AC0625 /* Build configuration list for PBXNativeTarget "Pods-XMPopover_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66CD4C9E94D8E911948232973417BF9A /* Debug */,
+				80178895212E07235354F542AA925D49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50A4F1DB36603C77BBFE021CD0133711 /* Build configuration list for PBXNativeTarget "Pods-XMPopover_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E354CD627A394582B595C0F924D727D6 /* Debug */,
+				E8BAF39AC04D1BA83EA0E906468D7110 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E564F201F14D98082294D6CDE5FB1F85 /* Build configuration list for PBXNativeTarget "XMPopover" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62EFDC1D76B2B309AA160A6FC5D8FA9A /* Debug */,
+				BD4BFA18FC048684DA1B19739AD43D56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

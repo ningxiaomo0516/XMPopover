@@ -1,0 +1,22 @@
+{
+  "name": "XMPopover",
+  "version": "0.1.0",
+  "summary": "XMPopover可以直接弹出Controller的一款弹窗.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/ningxiaomo0516/XMPopover",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "宁小陌y": "136769890@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/ningxiaomo0516/XMPopover.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "XMPopover/Classes/**/*"
+}

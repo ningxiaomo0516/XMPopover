@@ -1,0 +1,6 @@
+framework module XMPopover {
+  umbrella header "XMPopover-umbrella.h"
+
+  export *
+  module * { export * }
+}
