@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'XMPopover'
   s.version          = '1.0.0'
-  s.summary          = 'XMPopover可以直接弹出Controller的一款弹窗.'
+  s.summary          = '可以直接弹出Controller的一款弹窗.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,9 +17,7 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description      = 'XMPopover可以直接弹出Controller的一款弹窗.'
 
   s.homepage         = 'https://github.com/ningxiaomo0516/XMPopover'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
